@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex Main"] 1766239989.5445 "Main.aux" "Main.bbl" "Main" 1766239994.48699 0
-  "./Main-blx.bib" 1766239992 343 9d0ec25e9848b60c2a3f188eb899169b ""
+["bibtex Main"] 1766245322.14012 "Main.aux" "Main.bbl" "Main" 1766245471.99268 0
+  "./Main-blx.bib" 1766245469 343 9d0ec25e9848b60c2a3f188eb899169b ""
   "./Quellenverzeichnis.bib" 1766231333 243 8c64abf038e9e63b97ef6d8292557b3c ""
   "C:/Users/W163196/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1752408733 65510 9a2a51799b543ff279b8ea2dd91ec499 ""
-  "Main.aux" 1766239992 2690 12437d6398ed09f5a91f42016eeecdc8 "pdflatex"
-  "cover.aux" 1766239992 4001 7816b69fe5d74b7cb24d3bec47b4e1e0 "pdflatex"
+  "Main.aux" 1766245469 2690 00595c9f9713594c4b5ff6eaeb224498 "pdflatex"
+  "cover.aux" 1766245469 4001 7816b69fe5d74b7cb24d3bec47b4e1e0 "pdflatex"
   (generated)
   "Main.bbl"
   "Main.blg"
   (rewritten before read)
-["pdflatex"] 1766239990.02587 "c:/Users/W163196/OneDrive - Provinzial/NAK/Semester 5/Datenschutz und KI/DatenschutzUndKI/Main.tex" "Main.pdf" "Main" 1766239994.48888 0
+["pdflatex"] 1766245467.02219 "c:/Users/W163196/OneDrive - Provinzial/NAK/Semester 5/Datenschutz und KI/DatenschutzUndKI/Main.tex" "Main.pdf" "Main" 1766245471.99541 0
   "C:/Users/W163196/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1766235784 136364 c4be6d3c75d22b8d6188dd3bf30b6a2b ""
   "C:/Users/W163196/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762611331 13322835 b84eb01d979d45bbe769666ac7afd10d ""
   "C:/Users/W163196/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -140,18 +140,18 @@
   "C:/Users/W163196/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/W163196/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
   "Content/01_Einleitung.tex" 1766239984 541 d2f1995516c8d139d6c4c05c32ea4326 ""
-  "Content/02_Grundlagen.tex" 1766239868 1994 1c4b5cc0cec7f4ee388f805e7bb8878b ""
+  "Content/02_Grundlagen.tex" 1766245463 3280 cdfd247bac128b39a7b3098bfcf135d7 ""
   "Content/03_TechnischePerspektive.tex" 1766236479 73 a044f0b0900246a1ad49277d292cde20 ""
   "Content/04_EthischePerspektive.tex" 1766236442 81 6cac3964244486bb1fb4aeb2c7837d86 ""
-  "Main.aux" 1766239992 2690 12437d6398ed09f5a91f42016eeecdc8 "pdflatex"
-  "Main.bbl" 1766239989 1421 64fc04d3e2166b56ec315dacb3eeb350 "bibtex Main"
-  "Main.out" 1766239992 3119 836d85eeb97312f1dc5891e4bec5d5b1 "pdflatex"
-  "Main.run.xml" 1766239992 2566 27cb940b935f76dc41564c2d5d29ba5c "pdflatex"
+  "Main.aux" 1766245469 2690 00595c9f9713594c4b5ff6eaeb224498 "pdflatex"
+  "Main.bbl" 1766245322 1421 64fc04d3e2166b56ec315dacb3eeb350 "bibtex Main"
+  "Main.out" 1766245469 3119 836d85eeb97312f1dc5891e4bec5d5b1 "pdflatex"
+  "Main.run.xml" 1766245469 2566 27cb940b935f76dc41564c2d5d29ba5c "pdflatex"
   "Main.tex" 1766236833 4466 385fde8e97ace243c6eb895f2199bf11 ""
-  "Main.toc" 1766239992 1317 efe9c8b6ac6d01c5c19ff44cfa2155f9 "pdflatex"
+  "Main.toc" 1766245469 1317 bf63d4a8846ef4ab7ae12477e8ddd31e "pdflatex"
   "Resources/Nordakademie_Logo.png" 1766128386 16964 66eb3c9a2c10b3f51ea09550f24e4d88 ""
   "c:/Users/W163196/OneDrive - Provinzial/NAK/Semester 5/Datenschutz und KI/DatenschutzUndKI/Main.tex" 1766236833 4466 385fde8e97ace243c6eb895f2199bf11 ""
-  "cover.aux" 1766239992 4001 7816b69fe5d74b7cb24d3bec47b4e1e0 "pdflatex"
+  "cover.aux" 1766245469 4001 7816b69fe5d74b7cb24d3bec47b4e1e0 "pdflatex"
   "cover.tex" 1766231333 723 46e1f594651da153b968ae9dd0691808 ""
   (generated)
   "Main-blx.bib"

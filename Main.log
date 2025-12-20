@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.8)  20 DEC 2025 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.8)  20 DEC 2025 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -878,7 +878,7 @@ Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 93.
 [2
 
 ] (Content/01_Einleitung.tex) (Content/02_Grundlagen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 10--23
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
 
  []
 
@@ -886,9 +886,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--23
 
 File: Resources/Nordakademie_Logo.png Graphic file (type png)
 <use Resources/Nordakademie_Logo.png>
-Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 23.
+Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 12.
 (pdftex.def)             Requested size: 156.49014pt x 20.28554pt.
-[1]) (Content/03_TechnischePerspektive.tex) (Content/04_EthischePerspektive.tex
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 13--26
+
+ []
+
+) (Content/03_TechnischePerspektive.tex) (Content/04_EthischePerspektive.tex
 Overfull \hbox (2.95876pt too wide) in paragraph at lines 1--1
 []\OT1/ptm/b/n/14.4 Ethische Per-spek-ti-ve: Mo-ra-li-sche Ver-ant-wor-tung und geis-ti-ge In-te-grit[]at 
  []
@@ -937,15 +942,15 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23074 strings out of 468080
- 410932 string characters out of 5424804
- 1065983 words of memory out of 5000000
- 51390 multiletter control sequences out of 15000+600000
+ 23076 strings out of 468080
+ 410962 string characters out of 5424804
+ 1066983 words of memory out of 5000000
+ 51392 multiletter control sequences out of 15000+600000
  649661 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  75i,15n,79p,1981b,2369s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/W163196/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/W163196/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/W163196/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/W163196/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main.pdf (8 pages, 95055 bytes).
+Output written on Main.pdf (8 pages, 97521 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)
