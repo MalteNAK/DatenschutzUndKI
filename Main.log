@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.6)  20 DEC 2025 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.6)  21 DEC 2025 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -873,7 +873,7 @@ Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 93.
 [2
 
 ] (Content/01_Einleitung.tex) (Content/02_Grundlagen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 10--23
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
 
  []
 
@@ -881,9 +881,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--23
 
 File: Resources/Nordakademie_Logo.png Graphic file (type png)
 <use Resources/Nordakademie_Logo.png>
-Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 23.
+Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 12.
 (pdftex.def)             Requested size: 156.49014pt x 20.28554pt.
-[1]) (Content/03_TechnischePerspektive.tex
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 13--26
+
+ []
+
+) (Content/03_TechnischePerspektive.tex
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
             Default family used instead on input line 7.
@@ -894,19 +899,19 @@ LaTeX Info: Symbol \textrightarrow not provided by
 
 File: Resources/Nordakademie_Logo.png Graphic file (type png)
 <use Resources/Nordakademie_Logo.png>
-Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 14.
+Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 8.
 (pdftex.def)             Requested size: 156.49014pt x 20.28554pt.
 [2]
 
 File: Resources/Nordakademie_Logo.png Graphic file (type png)
 <use Resources/Nordakademie_Logo.png>
-Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 37.
+Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 28.
 (pdftex.def)             Requested size: 156.49014pt x 20.28554pt.
 [3]
 
 File: Resources/Nordakademie_Logo.png Graphic file (type png)
 <use Resources/Nordakademie_Logo.png>
-Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 55.
+Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 49.
 (pdftex.def)             Requested size: 156.49014pt x 20.28554pt.
 [4]
 Overfull \hbox (9.9931pt too wide) in paragraph at lines 66--67
@@ -917,9 +922,15 @@ Overfull \hbox (9.9931pt too wide) in paragraph at lines 66--67
 
 File: Resources/Nordakademie_Logo.png Graphic file (type png)
 <use Resources/Nordakademie_Logo.png>
-Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 71.
+Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 67.
 (pdftex.def)             Requested size: 156.49014pt x 20.28554pt.
 [5]) (Content/04_EthischePerspektive.tex
+
+File: Resources/Nordakademie_Logo.png Graphic file (type png)
+<use Resources/Nordakademie_Logo.png>
+Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 1.
+(pdftex.def)             Requested size: 156.49014pt x 20.28554pt.
+[6]
 Overfull \hbox (2.95876pt too wide) in paragraph at lines 1--1
 []\OT1/ptm/b/n/14.4 Ethische Per-spek-ti-ve: Mo-ra-li-sche Ver-ant-wor-tung und geis-ti-ge In-te-grit[]at 
  []
@@ -930,7 +941,7 @@ File: Resources/Nordakademie_Logo.png Graphic file (type png)
 <use Resources/Nordakademie_Logo.png>
 Package pdftex.def Info: Resources/Nordakademie_Logo.png  used on input line 109.
 (pdftex.def)             Requested size: 156.49014pt x 20.28554pt.
-[6]
+[7]
 
 File: Resources/Nordakademie_Logo.png Graphic file (type png)
 <use Resources/Nordakademie_Logo.png>
@@ -968,17 +979,17 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23099 strings out of 468133
- 409965 string characters out of 5430713
+ 23102 strings out of 468133
+ 410001 string characters out of 5430713
  1069642 words of memory out of 5000000
- 51343 multiletter control sequences out of 15000+600000
+ 51345 multiletter control sequences out of 15000+600000
  649106 words of font info for 78 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  75i,15n,79p,1938b,2369s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\metel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/metel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/metel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/metel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/metel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main.pdf (12 pages, 129069 bytes).
+Output written on Main.pdf (13 pages, 130932 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex Main"] 1766243870.63247 "Main.aux" "Main.bbl" "Main" 1766244690.95055 0
-  "./Main-blx.bib" 1766244690 343 9d0ec25e9848b60c2a3f188eb899169b ""
+["bibtex Main"] 1766326001.79765 "Main.aux" "Main.bbl" "Main" 1766326003.64484 0
+  "./Main-blx.bib" 1766326002 343 9d0ec25e9848b60c2a3f188eb899169b ""
   "./Quellenverzeichnis.bib" 1766242333 243 8c64abf038e9e63b97ef6d8292557b3c ""
   "C:/Users/metel/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1752408733 65510 9a2a51799b543ff279b8ea2dd91ec499 ""
-  "Main.aux" 1766244690 4291 6613b456eea25a4d7140398d0e9a9066 "pdflatex"
-  "cover.aux" 1766244689 4001 7816b69fe5d74b7cb24d3bec47b4e1e0 "pdflatex"
+  "Main.aux" 1766326002 4291 9c4a6bb4691e5d7d1e6c1c7a5833750d "pdflatex"
+  "cover.aux" 1766326002 4001 7816b69fe5d74b7cb24d3bec47b4e1e0 "pdflatex"
   (generated)
   "Main.bbl"
   "Main.blg"
   (rewritten before read)
-["pdflatex"] 1766244689.09823 "c:/Users/metel/VS_Code_Projects/DatenschutzUndKI/Main.tex" "Main.pdf" "Main" 1766244690.95124 0
-  "C:/Users/metel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1766242997 82507 a9eef8696c92627b87e9975edea03b2a ""
+["pdflatex"] 1766326001.98212 "c:/Users/metel/VS_Code_Projects/DatenschutzUndKI/Main.tex" "Main.pdf" "Main" 1766326003.64549 0
+  "C:/Users/metel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1766319573 136364 c4be6d3c75d22b8d6188dd3bf30b6a2b ""
   "C:/Users/metel/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1766162446 12668 fdb662a11625b960b08666ff043e30f4 ""
   "C:/Users/metel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757153648 13257342 357c9fa233c5fa5914647785df70c447 ""
   "C:/Users/metel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -142,18 +142,18 @@
   "C:/Users/metel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/metel/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
   "Content/01_Einleitung.tex" 1766242333 541 d2f1995516c8d139d6c4c05c32ea4326 ""
-  "Content/02_Grundlagen.tex" 1766242333 1994 1c4b5cc0cec7f4ee388f805e7bb8878b ""
-  "Content/03_TechnischePerspektive.tex" 1766244688 15040 3354c182392629921d8fd0dc7706b621 ""
+  "Content/02_Grundlagen.tex" 1766325999 3280 cdfd247bac128b39a7b3098bfcf135d7 ""
+  "Content/03_TechnischePerspektive.tex" 1766325874 14842 8637264d8b00179001569f3ef5ff3f0f ""
   "Content/04_EthischePerspektive.tex" 1766242333 81 6cac3964244486bb1fb4aeb2c7837d86 ""
-  "Main.aux" 1766244690 4291 6613b456eea25a4d7140398d0e9a9066 "pdflatex"
-  "Main.bbl" 1766243870 1421 64fc04d3e2166b56ec315dacb3eeb350 "bibtex Main"
-  "Main.out" 1766244690 6237 d516e812bb0326fb9280f5774b297f74 "pdflatex"
-  "Main.run.xml" 1766244690 2566 27cb940b935f76dc41564c2d5d29ba5c "pdflatex"
+  "Main.aux" 1766326002 4291 9c4a6bb4691e5d7d1e6c1c7a5833750d "pdflatex"
+  "Main.bbl" 1766326001 1421 64fc04d3e2166b56ec315dacb3eeb350 "bibtex Main"
+  "Main.out" 1766326002 6237 d516e812bb0326fb9280f5774b297f74 "pdflatex"
+  "Main.run.xml" 1766326002 2566 27cb940b935f76dc41564c2d5d29ba5c "pdflatex"
   "Main.tex" 1766243845 4466 385fde8e97ace243c6eb895f2199bf11 ""
-  "Main.toc" 1766244690 2507 43e3b8fc50a16d55fa71b7e41cc843db "pdflatex"
+  "Main.toc" 1766326002 2507 d674725c47e131da9afdc2a59b53329c "pdflatex"
   "Resources/Nordakademie_Logo.png" 1766242333 16964 66eb3c9a2c10b3f51ea09550f24e4d88 ""
   "c:/Users/metel/VS_Code_Projects/DatenschutzUndKI/Main.tex" 1766243845 4466 385fde8e97ace243c6eb895f2199bf11 ""
-  "cover.aux" 1766244689 4001 7816b69fe5d74b7cb24d3bec47b4e1e0 "pdflatex"
+  "cover.aux" 1766326002 4001 7816b69fe5d74b7cb24d3bec47b4e1e0 "pdflatex"
   "cover.tex" 1766242333 723 46e1f594651da153b968ae9dd0691808 ""
   (generated)
   "Main-blx.bib"

@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {2}Grundlagen: Autorschaft und Künstliche Intelligenz}{1}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Historischer und philosophischer Begriff der Autorschaft}{1}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Das schöpferische Individuum}{1}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Kollektive Kreativität}{1}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2}Kollektive Kreativität}{2}{subsubsection.2.1.2}%
 \contentsline {subsubsection}{\numberline {2.1.3}Originalität, Inspiration und geistiges Eigentum}{2}{subsubsection.2.1.3}%
 \contentsline {section}{\numberline {3}Technische Perspektive: Autorschaft in der algorithmischen Kreativität}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Der kreative Prozess in KI-Systemen}{2}{subsection.3.1}%
