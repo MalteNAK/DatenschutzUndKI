@@ -1,0 +1,53 @@
+# .gitignore für LaTeX-Projekt
+# Ziel: alle Zwischen-/Build-Dateien ignorieren, aber .tex-, .pdf-Dateien und der content/ Ordner sollen im Repo bleiben
+
+# LaTeX Hilfsdateien
+*.aux
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.blx.bib
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.pdfsync
+
+# minted / Pygments / caches
+_minted-*/
+.minted/
+*.pygstyle
+
+# Build / temporary folders
+_build/
+build/
+latex-build/
+_out/
+out/
+cache/
+tmp/
+.*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+.DS_Store

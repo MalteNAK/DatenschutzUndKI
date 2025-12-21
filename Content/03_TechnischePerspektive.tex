@@ -1,1 +1,80 @@
-\section{Technische Perspektive: Autorschaft und Künstliche Intelligenz}
+\section{Technische Perspektive: Autorschaft in der algorithmischen Kreativität}
+
+Nachdem im vorherigen Kapitel die philosophisch-historischen Grundlagen der Autorschaft sowie die technischen Prinzipien generativer KI dargelegt wurden, widmet sich dieses Kapitel der Frage, wie sich Autorschaft aus technischer Perspektive im Zeitalter algorithmischer Kreativität neu denken lässt. Während Kapitel 2 erörtert hat, warum KI den traditionellen Autorschaftsbegriff herausfordert – insbesondere durch die Grenzen maschineller Intentionalität und die Reproduktionslogik neuronaler Netze –, konzentriert sich die folgende Analyse auf die praktische Werkgenese in KI-Systemen. Dabei wird untersucht, wie aus einem Prompt ein kreatives Werk entsteht, welche Akteure und Prozesse am kreativen Akt beteiligt sind, und wie die Black-Box-Problematik die Zuschreibung von Autorschaft erschwert. Zudem wird beleuchtet, wie die Mensch-Maschine-Kooperation die Rolle des Autors fundamental verändert – vom Schöpfer zum Kurator algorithmischer Prozesse.
+
+\subsection{Der kreative Prozess in KI-Systemen}
+
+Die Generierung eines KI-basierten Werkes folgt einem grundlegenden Ablauf, der sich vereinfacht als Dreischritt darstellen lässt: \textit{Prompt} → \textit{Modell} → \textit{Output}. Dieser Prozess unterscheidet sich fundamental von der traditionellen Werkschöpfung, da er eine Vielzahl technischer Komponenten einbezieht, die jeweils einen Beitrag zum Endergebnis leisten.
+
+\subsubsection{Von der Eingabe zur Ausgabe: Die technische Pipeline}
+
+Der Prozess beginnt mit dem \textit{Prompt}, einer textuellen, visuellen oder multimodalen Eingabe durch einen menschlichen Nutzer. Dieser Prompt fungiert als Initialschritt und definiert die Richtung des zu generierenden Inhalts. Bei Textgeneratoren wie GPT-5 oder Claude kann dies eine einfache Anweisung sein (\textit{„Schreibe ein Gedicht über den Winter''}), während bei Bildgeneratoren wie DALL-E oder Midjourney detaillierte Beschreibungen gewünschter Stilelemente, Kompositionen und Atmosphären verwendet werden.
+
+Die eigentliche Transformation erfolgt im \textit{Modell}, einem komplexen neuronalen Netzwerk, das auf Basis von Millionen bzw. Milliarden Parametern arbeitet. Diese Parameter wurden während des Trainingsprozesses aus großen Datensätzen gelernt und repräsentieren statistische Muster, die das Modell befähigen, auf neue Eingaben mit plausiblen Ausgaben zu reagieren. Bei generativen Modellen wie Transformern oder Diffusionsmodellen geschieht dies durch iterative Prozesse, bei denen das Modell schrittweise eine Ausgabe konstruiert – etwa indem es Wort für Wort einen Text generiert oder Rauschen in ein kohärentes Bild umwandelt.
+
+Der \textit{Output} ist schließlich das generierte Werk: ein Text, ein Bild, ein Musikstück oder eine andere kreative Leistung. Dieser Output ist jedoch nicht deterministisch – selbst bei identischen Prompts können verschiedene Ausgaben entstehen, da viele Modelle mit Zufallselementen (Sampling-Strategien) arbeiten, um Diversität und Kreativität zu fördern.
+
+\subsubsection{Technische Urheberschaft: Daten, Algorithmen und Modelle als ``Mit-Autoren''}
+
+Die Frage, wer als Urheber eines KI-generierten Werkes anzusehen ist, wird technisch komplexer, wenn man die verschiedenen Komponenten der Werkschöpfung betrachtet. Mindestens vier Akteure oder Entitäten sind am Entstehungsprozess beteiligt:
+
+\begin{enumerate}
+    
+    \item \textbf{Die Trainingsdaten:} Jedes KI-Modell basiert auf einem Datensatz, der oft aus urheberrechtlich geschützten Werken besteht. Ein Bildgenerator, der auf Millionen von Kunstwerken trainiert wurde, reproduziert implizit Stilmerkmale und Kompositionsprinzipien dieser Werke. Die ursprünglichen Künstler könnten argumentieren, dass ihre kreativen Leistungen als Grundlage für die KI-Generierung dienen und sie somit indirekt „Mit-Autoren'' sind.
+    
+    \item \textbf{Die Entwickler des Algorithmus:} Die Architektur eines neuronalen Netzwerks – etwa die Entscheidung für ein Transformer-Modell oder ein Diffusionsmodell – bestimmt maßgeblich, wie das Modell lernt und generiert. Die Entwickler, die diese Algorithmen entwerfen, legen technische Rahmenbedingungen fest, die den kreativen Prozess strukturieren.
+    
+    \item \textbf{Das trainierte Modell:} Das Modell selbst, als Ergebnis des Trainings, repräsentiert eine spezifische Konfiguration von Parametern, die aus den Daten gelernt wurden. Es ist die „ausführende Instanz'', die den Prompt in einen Output transformiert. Ob das Modell als eigenständiger Akteur betrachtet werden kann, bleibt umstritten – es agiert deterministisch (oder pseudo-stochastisch), besitzt aber kein Bewusstsein oder intentionale Handlungsfähigkeit.
+    
+    \item \textbf{Der Nutzer (Prompt-Geber):} Der Mensch, der den Prompt formuliert und möglicherweise iterativ verfeinert, hat ebenfalls einen wesentlichen Einfluss auf das Ergebnis. Je detaillierter und kreativer der Prompt, desto stärker kann argumentiert werden, dass der Nutzer eine gestalterische Rolle übernimmt.
+\end{enumerate}
+
+Diese Vielschichtigkeit führt zu einer \textit{verteilten Urheberschaft}, bei der es schwerfällt, eine einzelne Person oder Entität als alleinigen Autor zu identifizieren. Technisch betrachtet ist das generierte Werk das Resultat einer Kette von Entscheidungen und Prozessen, die von menschlichen und nicht-menschlichen Akteuren gemeinsam getragen werden.
+
+\subsection{Transparenz und Nachvollziehbarkeit}
+
+Ein zentrales Problem bei der Bewertung von KI-generierter Kreativität ist die mangelnde Transparenz vieler Modelle. Die sogenannte Black-Box-Problematik beschreibt das Phänomen, dass selbst die Entwickler eines neuronalen Netzwerks nicht immer nachvollziehen können, warum ein Modell eine bestimmte Ausgabe produziert hat.
+
+\subsubsection{Black-Box-Problematik und Explainable AI}
+
+Neuronale Netzwerke bestehen aus Schichten von Neuronen, die durch Gewichte miteinander verbunden sind. Diese Gewichte werden während des Trainings so angepasst, dass das Modell auf die Trainingsdaten möglichst gut reagiert. Der resultierende Parameterraum ist jedoch so hochdimensional, dass eine Interpretation der internen Entscheidungsprozesse äußerst schwierig ist. Ein Bildgenerator mag ein beeindruckendes Porträt erzeugen, aber welche spezifischen Merkmale aus welchen Trainingsdaten in welcher Kombination zu diesem Ergebnis geführt haben, bleibt oft verborgen.
+
+Diese Intransparenz hat weitreichende Konsequenzen für die Zuschreibung von Autorschaft. Wenn nicht nachvollziehbar ist, wie ein Werk entstanden ist, wird es schwierig zu bestimmen, welchen Anteil die einzelnen Komponenten (Daten, Algorithmus, Prompt) am kreativen Prozess hatten. Zudem erschwert es die rechtliche und ethische Bewertung: Hat das Modell unzulässig urheberrechtlich geschützte Inhalte reproduziert? Wurde der Prompt „kreativ genug'' formuliert, um eine eigene Leistung darzustellen?
+
+Als Reaktion auf diese Problematik hat sich das Forschungsfeld der \textit{Explainable AI (XAI)} entwickelt. XAI-Methoden versuchen, die Entscheidungsprozesse von KI-Systemen transparenter zu machen, etwa durch Visualisierungen (z. B. Attention-Maps, die zeigen, welche Bereiche eines Inputs das Modell fokussiert hat) oder durch vereinfachte Ersatzmodelle, die das Verhalten komplexer Netzwerke approximieren. Im Kontext der Autorschaft könnten solche Methoden helfen, den kreativen Beitrag einzelner Komponenten besser zu quantifizieren und somit eine gerechtere Zuschreibung zu ermöglichen.
+
+\subsubsection{Bedeutung für die Zuschreibung von Autorenschaft}
+
+Transparenz ist nicht nur eine technische, sondern auch eine normative Anforderung. Ohne Nachvollziehbarkeit des Entstehungsprozesses wird es unmöglich, die im vorherigen Kapitel diskutierten philosophischen Konzepte von Autorschaft – Intentionalität, Originalität, Schöpfertum – auf KI-generierte Werke anzuwenden. Wenn unklar bleibt, ob ein Werk tatsächlich „neu'' ist oder lediglich eine Rekombination existierender Muster darstellt, verliert der Begriff der Originalität an Bedeutung.
+
+Gleichzeitig stellt die Black-Box-Problematik die Vorstellung eines klar identifizierbaren Autors infrage. In der traditionellen Autorschaft ließ sich der Schöpfungsprozess – zumindest theoretisch – auf die Intentionen und Handlungen eines Individuums zurückführen. Bei KI-Systemen hingegen ist die Werkgenese so komplex und verteilt, dass eine eindeutige Zuschreibung kaum möglich ist. Dies legt nahe, dass neue Konzepte von Autorschaft entwickelt werden müssen, die nicht auf einem singulären, intentionalen Schöpfer basieren, sondern die Vielzahl der beteiligten Akteure und Prozesse anerkennen.
+
+\subsection{Mensch-Maschine-Kooperation}
+
+Die zunehmende Verbreitung von KI-Tools in kreativen Bereichen führt zu einer grundlegenden Verschiebung der Rollen im Schöpfungsprozess. Anstatt dass der Mensch allein kreativ tätig wird, entsteht eine \textit{Co-Creation}, bei der Mensch und Maschine gemeinsam ein Werk hervorbringen. Diese Kooperation wirft neue Fragen auf: Wer ist Autor, wenn beide Seiten zum Ergebnis beitragen? Und wie verändert sich das Selbstverständnis kreativer Arbeit, wenn Algorithmen zentrale Aufgaben übernehmen?
+
+\subsubsection{Co-Creation: Der Autor als Kurator statt Schöpfer}
+
+In der Zusammenarbeit mit generativen KI-Systemen verschiebt sich die Rolle des Menschen vom klassischen Schöpfer hin zu einem \textit{Kurator} oder \textit{Dirigenten}. Der Nutzer gibt nicht mehr jeden Pinselstrich oder jedes Wort selbst vor, sondern formuliert Vorgaben, wählt aus verschiedenen generierten Varianten aus und verfeinert das Ergebnis iterativ. Ein Künstler, der mit Midjourney arbeitet, könnte beispielsweise Dutzende von Bildvarianten generieren lassen, aus denen er die vielversprechendsten auswählt, um sie weiter zu bearbeiten oder zu kombinieren.
+
+Diese kuratorische Tätigkeit erfordert durchaus kreative Kompetenzen: die Fähigkeit, präzise und inspirierende Prompts zu formulieren, ein ästhetisches Urteilsvermögen, um gelungene Outputs zu erkennen, und die Fertigkeit, das Rohmaterial der KI in ein kohärentes Werk zu integrieren. Dennoch unterscheidet sich diese Tätigkeit qualitativ von der traditionellen Kunstproduktion, bei der der Künstler die volle Kontrolle über jeden Aspekt des Werkes behält.
+
+Es entsteht eine neue Form der Autorschaft, die man als \textit{kollaborative Autorschaft} bezeichnen könnte: Der Mensch liefert die Idee und trifft ästhetische Entscheidungen, während die KI die technische Umsetzung übernimmt. Diese Aufteilung ist nicht unproblematisch, denn sie verwischt die Grenzen zwischen eigenständiger kreativer Leistung und bloßer Anwendung eines Werkzeugs. Während ein Maler mit Pinsel und Farbe arbeitet, ohne dass dies seine Urheberschaft infrage stellt, ist die KI kein passives Werkzeug – sie trifft eigenständige (wenn auch nicht intentionale) „Entscheidungen'' über die Gestaltung des Outputs.
+
+\subsubsection{Verschiebung der Rollen im kreativen Prozess}
+
+Die Mensch-Maschine-Kooperation verändert nicht nur die Autorschaft einzelner Werke, sondern auch das gesamte Verständnis von Kreativität. Traditionell galt Kreativität als eine genuin menschliche Fähigkeit, die auf Imagination, emotionaler Tiefe und kulturellem Verständnis beruht. KI-Systeme hingegen operieren auf der Grundlage statistischer Muster und besitzen weder Bewusstsein noch emotionale Erfahrungen. Dennoch sind sie in der Lage, Outputs zu erzeugen, die ästhetisch ansprechend, überraschend oder sogar „originell'' wirken.
+
+Dies führt zu einer paradoxen Situation: Einerseits können KI-Systeme keine intentionalen Schöpfer sein, da ihnen die Fähigkeit zur Selbstreflexion und zur bewussten Gestaltung fehlt. Andererseits produzieren sie Werke, die von menschlichen Betrachtern als kreativ wahrgenommen werden. Diese Diskrepanz legt nahe, dass Kreativität möglicherweise nicht ausschließlich an Intentionalität gebunden ist, sondern auch als Eigenschaft eines Prozesses oder eines Ergebnisses verstanden werden kann.
+
+Im Zuge dieser Entwicklung verschieben sich auch die Anforderungen an kreative Berufe. Designer, Autoren und Künstler müssen zunehmend lernen, mit KI-Tools umzugehen, was neue Kompetenzen erfordert: Prompt Engineering, das Verständnis von Modellfähigkeiten und -limitationen sowie die Fähigkeit, KI-generierte Inhalte kritisch zu bewerten und zu integrieren. Gleichzeitig besteht die Gefahr, dass kreative Prozesse standardisiert und homogenisiert werden, wenn viele Schaffende auf dieselben Modelle und Trainingsdaten zurückgreifen.
+
+\subsection{Zwischenfazit: Technische Rekonzeption der Autorschaft}
+
+Die technische Analyse des kreativen Prozesses in KI-Systemen offenbart eine fundamentale Herausforderung für das traditionelle Verständnis von Autorschaft. Die Werkgenese ist nicht mehr einer einzigen, intentional handelnden Person zuzuschreiben, sondern verteilt sich auf eine Vielzahl von Akteuren und Prozessen: die Ersteller der Trainingsdaten, die Entwickler der Algorithmen, das trainierte Modell selbst und den Nutzer, der den Prompt formuliert.
+
+Die Black-Box-Problematik verschärft diese Situation, da sie es erschwert, den Beitrag einzelner Komponenten nachzuvollziehen und zu bewerten. Ohne Transparenz bleibt unklar, ob ein Werk tatsächlich originell ist oder lediglich eine Rekombination bekannter Muster darstellt. Dies stellt nicht nur rechtliche, sondern auch philosophische Konzepte von Autorschaft infrage, die im zweiten Kapitel dargelegt wurden – insbesondere die Vorstellung eines intentionalen, selbstreflexiven Schöpfers.
+
+Zugleich verändert die Mensch-Maschine-Kooperation die Rolle des menschlichen Schöpfers. Anstatt eines autonomen Autors, der ein Werk von Grund auf erschafft, tritt ein Kurator, der algorithmische Prozesse steuert und deren Ergebnisse auswählt. Diese Verschiebung erfordert eine Neubewertung dessen, was als kreative Leistung gilt und wer Anspruch auf Urheberschaft erheben kann.
+
+Technisch betrachtet lässt sich festhalten: KI-generierte Werke sind das Resultat eines verteilten, oft intransparenten Prozesses, der eine klare Zuschreibung von Autorschaft erschwert. Diese technische Rekonzeption der Autorschaft wirft jedoch nicht nur Fragen nach der praktischen Machbarkeit auf, sondern berührt fundamentale ethische Dimensionen. Wenn die Grenzen zwischen menschlicher und maschineller Kreativität verschwimmen, stellt sich die Frage nach moralischer Verantwortung, nach dem Eigentum an Gedanken und Ideen sowie nach den ethischen Prinzipien, die eine gerechte Anerkennung kreativer Leistungen ermöglichen. Diese Fragen werden im folgenden Kapitel aus ethischer Perspektive erörtert, wobei insbesondere deontologische und utilitaristische Ansätze sowie datenethische Überlegungen zur Anwendung kommen.
