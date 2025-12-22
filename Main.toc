@@ -8,18 +8,26 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Das schöpferische Individuum}{1}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Kollektive Kreativität}{2}{subsubsection.2.1.2}%
 \contentsline {subsubsection}{\numberline {2.1.3}Originalität, Inspiration und geistiges Eigentum}{2}{subsubsection.2.1.3}%
-\contentsline {section}{\numberline {3}Technische Perspektive: Autorschaft in der algorithmischen Kreativität}{2}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Der kreative Prozess in KI-Systemen}{2}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Von der Eingabe zur Ausgabe: Die technische Pipeline}{2}{subsubsection.3.1.1}%
+\contentsline {section}{\numberline {3}Technische Perspektive: Autorschaft in der algorithmischen Kreativität}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Der kreative Prozess in KI-Systemen}{3}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Von der Eingabe zur Ausgabe: Die technische Pipeline}{3}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Technische Urheberschaft: Daten, Algorithmen und Modelle als ``Mit-Autoren''}{3}{subsubsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.2}Transparenz und Nachvollziehbarkeit}{4}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Black-Box-Problematik und Explainable AI}{4}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Bedeutung für die Zuschreibung von Autorenschaft}{4}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Mensch-Maschine-Kooperation}{5}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Co-Creation: Der Autor als Kurator statt Schöpfer}{5}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Verschiebung der Rollen im kreativen Prozess}{5}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Zwischenfazit: Technische Rekonzeption der Autorschaft}{6}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Ethische Perspektive: Moralische Verantwortung und geistige Integrität}{6}{section.4}%
+\contentsline {subsubsection}{\numberline {3.2.1}Bedeutung für die Zuschreibung von Autorenschaft und die Mensch-Maschine-Kooperation}{4}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Zwischenfazit: Technische Rekonzeption der Autorschaft}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Ethische Perspektive: Moralische Verantwortung und geistige Integrität}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Eigentum an Gedanken und Ideen}{5}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Ideen, Stile und Ausdruck: Was ist moralisch schutzwürdig?}{5}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Kollektive Wissensproduktion als Vergleichsfolie}{6}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}Ethik der Kreativität}{6}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Deontologische Sicht: Respekt vor geistiger Autonomie}{6}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Utilitaristische Sicht: Gesellschaftlicher Nutzen vs. individueller Verlust}{6}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Daten- und Informationsethik: Verantwortung im Informationsökosystem}{7}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Plagiat, Fairness und Anerkennung}{7}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Ab wann wird algorithmische Inspiration zu Ideendiebstahl?}{7}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Stilkopien, Remixing und algorithmische Collage}{7}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Fairness als Anerkennungs- und Verfahrensfrage}{7}{subsubsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.4}Zwischenfazit: Autorschaft als moralische Verantwortung}{8}{subsection.4.4}%
 \contentsline {section}{Quellenverzeichnis}{III}{section*.4}%
 \contentsline {section}{Eigenständigkeitserklärung}{IV}{section*.5}%
 \contentsline {section}{Aufteilung der Inhalte}{V}{section*.6}%
