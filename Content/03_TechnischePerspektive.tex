@@ -4,7 +4,7 @@ Aufbauend auf den philosophischen Grundlagen und der technischen Funktionsweise 
 
 \subsection{Der kreative Prozess in KI-Systemen}
 
-Die Generierung eines KI-basierten Werkes lässt sich vereinfacht als Dreischritt beschreiben: \textit{Prompt} → \textit{Modell} → \textit{Output}. Anders als bei klassischer Werkschöpfung sind dabei mehrere technische Komponenten beteiligt, die das Ergebnis mitprägen. Diese verteilte Werkgenese führt zu einer Form der Verantwortungsdiffusion, wie sie für algorithmische Systeme typisch ist: Entscheidungen und Effekte lassen sich nicht mehr eindeutig einzelnen Akteuren zuschreiben (vgl. \cite{Mittelstadt_EthicsOfAlgorithms_2016}).
+Die Generierung eines KI-basierten Werkes lässt sich vereinfacht als Dreischritt beschreiben: \textit{Prompt} → \textit{Modell} → \textit{Output}. Anders als bei klassischer Werkschöpfung sind dabei mehrere technische Komponenten beteiligt, die das Ergebnis mitprägen. Diese verteilte Werkgenese führt zu einer Form der Verantwortungsdiffusion, wie sie für algorithmische Systeme typisch ist: Entscheidungen und Effekte lassen sich nicht mehr eindeutig einzelnen Akteuren zuschreiben~\cite{Mittelstadt_EthicsOfAlgorithms_2016}.
 
 \subsubsection{Von der Eingabe zur Ausgabe: Die technische Pipeline}
 
@@ -12,7 +12,7 @@ Der Prozess beginnt mit dem \textit{Prompt} als Eingabe durch einen menschlichen
 
 Die Transformation erfolgt im \textit{Modell}, einem neuronalen Netzwerk mit vielen Parametern, die während des Trainings aus großen Datensätzen statistische Muster gelernt haben. Je nach Modelltyp (z.\,B. Transformer oder Diffusionsmodell) entsteht der Output schrittweise, etwa Wort für Wort oder durch Umwandlung von Rauschen in ein Bild.
 
-Der \textit{Output} ist das generierte Werk (Text, Bild, Musik etc.). Dieser ist in der Regel nicht deterministisch: Selbst bei gleichen Prompts können unterschiedliche Ergebnisse entstehen, da viele Modelle auf Zufallselemente (Sampling) setzen\cite{vaswani2023attentionneed}.
+Der \textit{Output} ist das generierte Werk (Text, Bild, Musik etc.). Dieser ist in der Regel nicht deterministisch: Selbst bei gleichen Prompts können unterschiedliche Ergebnisse entstehen, da viele Modelle auf Zufallselemente (Sampling) setzen~\cite{vaswani2023attentionneed}.
 
 
 \subsubsection{Technische Urheberschaft: Daten, Algorithmen und Modelle als ``Mit-Autoren''}
@@ -34,22 +34,20 @@ Diese Vielschichtigkeit begünstigt eine \textit{verteilte Urheberschaft}: Das W
 
 \subsection{Transparenz und Nachvollziehbarkeit}
 
-Ein zentrales Problem ist die mangelnde Transparenz vieler Modelle. Die Black-Box-Problematik meint hierbei, dass selbst Entwickler oft nicht erklären können, warum ein Modell genau diese Ausgabe erzeugt\cite{Mittelstadt_EthicsOfAlgorithms_2016}.
+Ein zentrales Problem ist die mangelnde Transparenz vieler Modelle. Die Black-Box-Problematik meint hierbei, dass selbst Entwickler oft nicht erklären können, warum ein Modell genau diese Ausgabe erzeugt~\cite{Mittelstadt_EthicsOfAlgorithms_2016}.
 
 Neuronale Netzwerke arbeiten mit Gewichtungen, die im Training angepasst werden. Der Parameterraum ist so komplex, dass interne Entscheidungswege kaum direkt interpretierbar sind. Welche Merkmale aus Trainingsdaten zu einer konkreten Ausgabe beigetragen haben, bleibt häufig unklar.
 
-Das erschwert die Zuschreibung von Autorenschaft: Wenn der Entstehungsweg nicht nachvollziehbar ist, lassen sich Beiträge von Daten, Algorithmus und Prompt nur schwer abgrenzen. Ebenso wird die Bewertung heikel, etwa ob unzulässig nahe Reproduktionen entstehen oder ob die menschliche Steuerung als eigenständige Leistung gilt\cite{Mittelstadt_EthicsOfAlgorithms_2016}\cite{Coeckelbergh_AI_Ethics_2020}.
-
+Das erschwert die Zuschreibung von Autorenschaft: Wenn der Entstehungsweg nicht nachvollziehbar ist, lassen sich Beiträge von Daten, Algorithmus und Prompt nur schwer abgrenzen. Ebenso wird die Bewertung heikel, etwa ob unzulässig nahe Reproduktionen entstehen oder ob die menschliche Steuerung als eigenständige Leistung gilt~\cite{Mittelstadt_EthicsOfAlgorithms_2016}~\cite{Coeckelbergh_AI_Ethics_2020}.
 XAI-Ansätze versuchen, Modelle zumindest teilweise erklärbarer zu machen, etwa durch Visualisierungen, Attribution-Methoden oder vereinfachte Ersatzmodelle. Für Autorschaftsfragen können solche Methoden helfen, Einflussfaktoren besser abzuschätzen; sie liefern jedoch typischerweise nur Teilinformationen und ersetzen keine vollständige Nachvollziehbarkeit des Generierungsprozesses.
 
 \subsubsection{Bedeutung für die Zuschreibung von Autorenschaft und die Mensch-Maschine-Kooperation}
 
-Transparenz ist nicht nur technisch, sondern auch normativ relevant \cite{Coeckelbergh_AI_Ethics_2020}. Ohne Nachvollziehbarkeit wird es schwierig, Begriffe wie Intentionalität oder Originalität sinnvoll auf KI-Outputs zu beziehen.\cite{Floridi_EthicsOfInformation_2013} Zugleich wird die Idee eines klar identifizierbaren Autors fragiler: Die Werkgenese ist verteilt und oft intransparent. Das spricht für Autorschaftskonzepte, die mehrere Beiträge und Verantwortlichkeiten mitdenken.
+Transparenz ist nicht nur technisch, sondern auch normativ relevant~\cite{Coeckelbergh_AI_Ethics_2020}. Ohne Nachvollziehbarkeit wird es schwierig, Begriffe wie Intentionalität oder Originalität sinnvoll auf KI-Outputs zu beziehen~\cite{Floridi_EthicsOfInformation_2013}. Zugleich wird die Idee eines klar identifizierbaren Autors fragiler: Die Werkgenese ist verteilt und oft intransparent. Das spricht für Autorschaftskonzepte, die mehrere Beiträge und Verantwortlichkeiten mitdenken.
 
 Diese Unschärfe verstärkt sich in der Praxis durch Mensch-Maschine-Kooperation. KI-Tools verschieben Rollen im kreativen Prozess: Statt alleiniger menschlicher Produktion entsteht \textit{Co-Creation}, in der Mensch und System gemeinsam zum Ergebnis beitragen. Der Mensch wird dabei häufig zum \textit{Kurator}, der Vorgaben formuliert, Varianten auswählt und iterativ verfeinert. Diese Tätigkeit erfordert kreative Kompetenzen (Prompts, Auswahl, Integration), unterscheidet sich aber von klassischer Produktion, weil Kontrolle und Ausgestaltung teilweise in das System verlagert werden.
 
-Damit verändert sich auch das Verständnis von Kreativität. KI-Systeme haben kein Bewusstsein und arbeiten statistisch, erzeugen aber Outputs, die als kreativ oder sogar \enquote{originell} wahrgenommen werden. Kreativität lässt sich dadurch stärker als Eigenschaft von Prozess und Ergebnis verstehen, nicht nur als Ausdruck bewusster Intention. Gleichzeitig verschieben sich Anforderungen an kreative Berufe (z.B. Prompting, Verständnis von Modellgrenzen, kritische Integration), während Standardisierung und Homogenisierung drohen, wenn viele auf dieselben Modelle zurückgreifen\cite{Coeckelbergh_AI_Ethics_2020}.
-
+Damit verändert sich auch das Verständnis von Kreativität. KI-Systeme haben kein Bewusstsein und arbeiten statistisch, erzeugen aber Outputs, die als kreativ oder sogar \enquote{originell} wahrgenommen werden. Kreativität lässt sich dadurch stärker als Eigenschaft von Prozess und Ergebnis verstehen, nicht nur als Ausdruck bewusster Intention. Gleichzeitig verschieben sich Anforderungen an kreative Berufe (z.B. Prompting, Verständnis von Modellgrenzen, kritische Integration), während Standardisierung und Homogenisierung drohen, wenn viele auf dieselben Modelle zurückgreifen~\cite{Coeckelbergh_AI_Ethics_2020}.
 \subsection{Zwischenfazit: Technische Rekonzeption der Autorschaft}
 
 Die technische Perspektive macht deutlich, dass KI-generierte Werke nicht das Ergebnis eines singulären schöpferischen Akts sind, sondern aus einem verteilten Zusammenspiel von Trainingsdaten, Entwicklerentscheidungen, Modellarchitektur und Nutzersteuerung hervorgehen. Diese Analyse erlaubt eine präzise Beschreibung der Werkgenese, liefert jedoch keine eigenständigen Kriterien dafür, wie Autorschaft normativ zu bewerten oder zuzuschreiben ist.
