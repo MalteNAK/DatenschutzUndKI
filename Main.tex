@@ -58,7 +58,7 @@ bmargin={2.75cm}]{geometry} % Für das Layout
 
 % Kapitelname links und Logo rechts
 \fancyhead[L]{\nouppercase{\leftmark}} % Zeigt das Kapitel links an
-\fancyhead[R]{\includegraphics[width=5.5cm]{Resources/Nordakademie_Logo.png}} % Zeigt das Logo rechts an
+\fancyhead[R]{\includegraphics[width=3cm]{Resources/Nordakademie_Logo.png}} % Zeigt das Logo rechts an
 
 \cfoot{\thepage} % Fußzeile mit Seitenzahl
 
@@ -87,9 +87,18 @@ bmargin={2.75cm}]{geometry} % Für das Layout
 
 	\section{Abkürzungsverzeichnis}
 	% Abkürzungen
-	\begin{acronym}%[KRITIS] % Für Formatierung längste Abkürzung eintragen
-	\acro{BEISPIEL}[BEISPIEL]{Beispiel Definition}
-	\end{acronym}
+
+
+    \begin{acronym}[DSGVO] % Für Formatierung längste Abkürzung eintragen
+        \acro{GPAI}{General-Purpose AI Models}
+		\acro{ML}{Machine Learning}
+        \acro{UrhG}{Urheberrechtsgesetz}
+        \acro{XAI}{Explainable Artificial Intelligence}
+		\acro{LLM}{Large Language Model}
+		\acro{RLHF}{Reinforcement Learning from Human Feedback}
+    \end{acronym}
+
+
     
 	\newpage
 	
